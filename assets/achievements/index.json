@@ -1,0 +1,37 @@
+[
+    {
+        "file": "Bravo Individual Award.jpeg",
+        "title": "Individual Excellence Award",
+        "description": "Recognized for outstanding individual contribution for good quality and speedy development involving thorough reseach and development."
+    },
+    {
+        "file": "Bravo Team Award.jpeg",
+        "title": "Team Excellence Award",
+        "description": "Acknowledged for exceptional teamwork and cross-functional collaboration."
+    },
+    {
+        "file": "High Five Award 2025.jpeg",
+        "title": "High Five Award",
+        "description": "Completed professional training and certification in OpenSearch."
+    },
+    {
+        "file": "Top Talent 2024.jpeg",
+        "title": "Top Talent 2024",
+        "description": "Recognized among top performers for the year 2024."
+    },
+    {
+        "file": "Top Talent 2025.jpeg",
+        "title": "Top Talent 2025",
+        "description": "Recognized among top performers for the year 2025."
+    },
+    {
+        "file": "Microsoft AZ-900.png",
+        "title": "Microsoft Cloud Training",
+        "description": "Completed professional cloud training demonstrating applied cloud skills."
+    },
+    {
+        "file": "Rasa ChatBot Developer.png",
+        "title": "Rasa ChatBot Developer",
+        "description": "Certified in building conversational AI solutions using Rasa Framework."
+    }
+]
