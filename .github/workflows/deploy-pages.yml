@@ -9,19 +9,21 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node (optional)
-        uses: actions/setup-node@v4
-        with:
-          node-version: "16"
-
-      - name: Configure Pages
+      - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact for Pages
@@ -30,4 +32,5 @@ jobs:
           path: "."
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        id: deployment
+        uses: actions/deploy-pages@v4
